@@ -1,8 +1,5 @@
-import requests
-import csv
 import multiprocessing as mp
 from multiprocessing import Pool
-from sys import argv
 import tqdm
 
 pool_size = mp.cpu_count()
