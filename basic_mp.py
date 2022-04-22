@@ -5,8 +5,6 @@ from multiprocessing import Pool
 from sys import argv
 import tqdm
 
-url="amp.voidput.com/"
-
 pool_size = mp.cpu_count()
 
 def do_job(item):
